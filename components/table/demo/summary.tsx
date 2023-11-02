@@ -125,7 +125,7 @@ const App: React.FC = () => (
       columns={fixedColumns}
       dataSource={fixedData}
       pagination={false}
-      scroll={{ x: 2000, y: 500 }}
+      scroll={{ x: 1000, y: 500 }}
       bordered
       summary={() => (
         <Table.Summary fixed>
